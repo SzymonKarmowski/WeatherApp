@@ -2,12 +2,8 @@ import tkinter as tk
 from tkinter import ttk
 import requests
 from datetime import datetime
-from dotenv import load_dotenv
-import os
 
-
-load_dotenv()
-API_KEY = os.getenv('API_KEY')
+API_KEY = "fe2daf392dd5fe699bcee9361c90ee8c"
 
 
 def kelvin_to_celsius(k):
